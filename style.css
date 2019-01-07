@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro: 500,600');
+@charset "UTF-8";
+/* CSS Document */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  background-color: #D9D9D9;
+}
+
+#wrap {
+  margin: 12px auto;
+  width: 100%;
+  height: 100%;
+  background-color: #e8e8e8;
+}
+
+#header {
+  padding: 5px 10px;
+  background-color: #b1b1b1;
+  font-family: "Advent Pro", serif;
+  font-size: 25pt;
+  font-weight: 600;
+}
+
+#sidebar {
+  float: left;
+  width: 25%;
+  font-family: "Advent Pro", serif;
+  background-color: #e8e8e8;
+  color: #000000;
+}
+
+#sidebar_padding {
+  padding: 15px;
+}
+
+#main {
+  float: left;
+  width: 75%;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#main_padding {
+  padding: 20px;
+}
+
+#footer {
+  clear: both;
+  background-color: #b1b1b1;
+  font-family: "Advent Pro", serif;
+  font-weight: 500;
+  height: 100px;
+  width: 100%;
+}
+
+#footer_padding {
+  padding: 10px;
+}
+
+p2 {
+  font-family: "Advent Pro", serif;
+  font-weight: 600;
+  font-size: 20pt;
+}
+
+p3 {
+  font-family: "Advent Pro", serif;
+  font-weight: 600;
+  font-size: 15pt;
+}
+
+p4 {
+  font-family: "Advent Pro", serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(64, 64, 64);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+#title_padding {
+  font-family: "Advent Pro", serif;
+  font-weight: 600;
+  font-size: 15pt;
+}
+
+#animation_1 {
+  padding: 05px;
+  font-family: "Advent Pro", serif;
+}
+
+#animation_2 {
+  padding: 05px;
+  font-family: "Advent Pro", serif;
+}
+
+#animation_3 {
+  padding: 05px;
+  font-family: "Advent Pro", serif;
+}
+
+#animation_4 {
+  padding: 05px;
+  font-family: "Advent Pro", serif;
+}
+
+#animation_5 {
+  padding: 05px;
+  font-family: "Advent Pro", serif;
+}
+
+p5 {
+  font-family: "Advent Pro", serif;
+  font-weight: 600;
+  font-size: 20pt;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+#header_title {
+  text-decoration: none;
+  color: black;
+}
+
+#animation_padding {
+  padding: 7px
+}
+
+#animation_padding:hover {
+  background-color: #eaeaea;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
